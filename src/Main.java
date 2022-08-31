@@ -12,6 +12,8 @@ import javafx.animation.FadeTransition;
 
 import java.io.FileNotFoundException;
 
+
+
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
@@ -78,6 +80,8 @@ public class Main extends Application {
         backRect.setX(0);
         backRect.setFill(Color.BLACK);
         backRect.setOpacity(0.9);
+
+
 
         menuGroup.getChildren().add(backRect);
 
